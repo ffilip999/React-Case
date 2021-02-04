@@ -16,17 +16,34 @@
     list-style: none;
     text-align: center;
     width: 70vw;
-    justify-content: center;
+    justify-content: right;
+    font-size: 25px;
 }
 
-.nav-links {
+li {
     color: white;
     text-decoration: none;
     padding: 10px;
 }
 
-.nav-links:hover {
+li:hover {
     background-color:  rgb(119, 166, 253);
     border-radius: 10px;
     transition: 0.2s;
 }
+
+.Home {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 10px;
+  }
+  
+  .Home:hover {
+    background-color:  rgb(119, 166, 253);
+    border-radius: 10px;
+    transition: 0.2s;
+  }
+  
