@@ -1,0 +1,32 @@
+.NavbarItems {
+    border-style: hidden;
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.17);
+    background-color: rgb(97, 153, 255);
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: center;
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-links:hover {
+    background-color:  rgb(119, 166, 253);
+    border-radius: 10px;
+    transition: 0.2s;
+}
