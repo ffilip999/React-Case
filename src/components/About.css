@@ -1,6 +1,24 @@
-.head {
+.wrapper {
+    display: flex;
+}
+
+.contact-div {
+    border-style: hidden;
+    padding: 120px;
+    padding-top: 100px;
+    width: 50%;
+}
+
+.contact {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 30px;;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.img-dec {
+    width: 50%;
 }

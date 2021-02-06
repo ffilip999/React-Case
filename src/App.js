@@ -22,7 +22,7 @@ function App() {
 }
 
 const Home = () => (
-  <div>
+  <div>  
     <h1 className='head'>Hemma</h1>
   </div>
 )
