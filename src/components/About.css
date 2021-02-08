@@ -1,5 +1,7 @@
 .wrapper {
     display: flex;
+    flex-direction: row;
+    padding-top: 50px;
 }
 
 .contact-div {
@@ -13,7 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 30px;;
+    padding-top: 30px;
     font-size: large;
     font-weight: bold;
     color: black;
@@ -22,3 +24,28 @@
 .img-dec {
     width: 50%;
 }
+
+.linkedin {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+@media (max-width: 1200px) {
+    .wrapper {
+      flex-direction: column;
+    }
+
+    .contact-div {
+        border-style: hidden;
+        padding: 120px;
+        padding-top: 100px;
+        width: 100%;
+    }
+
+    .img-dec {
+        width: 100%;
+    }
+  }
