@@ -13,10 +13,10 @@ class Navbar extends Component {
              </Link>
              <ul className="Nav-menu"> 
                 <Link to='/About' style={{ textDecoration: 'none' }}>
-                    <li>About</li>
+                    <li className="li-list">About</li>
                 </Link>
                 <Link to='/Contact' style={{ textDecoration: 'none' }}>
-                    <li>Contact</li>
+                    <li className="li-list">Contact</li>
                 </Link>
              </ul>
          </nav>

@@ -51,7 +51,10 @@ function Weather() {
                         {Math.round(weather.main.temp)}°c
                     </div>
                     <div className="weather">
-                        {weather.weather[0].main}
+                        {weather.weather[0].description}
+                    </div>
+                    <div className="wind">
+                         wind speed {Math.round(weather.wind.speed)} m/s
                     </div>
                 </div>
                 </div>

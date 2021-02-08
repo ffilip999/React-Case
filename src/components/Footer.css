@@ -1,0 +1,23 @@
+footer {
+    background-color: #E7E7E7;
+    color: black;
+    padding: 1.5em;
+}
+
+.ul-foot {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 25px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: left;
+    font-size: 25px;
+}
+
+.li-foot {
+    padding: 20px; 
+    font-size: large;
+    font-style: italic;
+    font-weight: 500;
+}

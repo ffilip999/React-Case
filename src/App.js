@@ -10,6 +10,8 @@ import Weather from './components/Weather';
 
 function App() {
   return (
+    <>
+      <div className="content">
     <Router>
       <div className="App">
         <Navbar />
@@ -19,9 +21,12 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
         </switch>
-        <Footer />
-      </div>
+        </div>
     </Router>
+    </div>
+    <Footer className="footer" />
+    </>
+    
   );
 }
 
