@@ -3,6 +3,7 @@ main {
     width: 350px;
     background: rgb(34,170,195);
     background: linear-gradient(0deg, rgba(34,170,195,1) 0%, rgba(45,143,253,1) 100%);
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
     padding: 25px;
     display: block;
     margin: auto;
